@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>App</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+		<!-- Icofont CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/icofont.css" media="all" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
+		<!-- Slicknav CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/slicknav.min.css">
+		<!-- Owl carousel CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+		<!-- Popup CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+		<!-- Vega CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/vegas.min.css">
+		<!-- Main style CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
+		
+		
+</head>
+<body>
+  <app-root></app-root>
+
+  <script src="assets/js/jquery.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Slicknav JS -->
+		<script src="assets/js/jquery.slicknav.min.js"></script>
+		<!-- owl carousel JS -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- Popup JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Counterup JS -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Counterup waypoints JS -->
+		<script src="assets/js/waypoints.min.js"></script>
+		<!-- Isotope JS -->
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<!-- Vega JS -->
+		<script src="assets/js/vegas.min.js"></script>
+		<!-- main JS -->
+		<script src="assets/js/main.js"></script>
+		<script>
+		  function initMap() {
+			var uluru = {lat: -26.397, lng: 135.644};
+			var map = new google.maps.Map(document.getElementById('map'), {
+			  zoom: 6,
+			  center: uluru
+			});
+			var marker = new google.maps.Marker({
+			  position: uluru,
+			  map: map
+			});
+		  }
+		</script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnKyOpsNq-vWYtrwayN3BkF3b4k3O9A_A&amp;callback=initMap"></script>
+</body>
+</html>
