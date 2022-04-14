@@ -7,11 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { CarlistingComponent } from './carlisting/carlisting.component';
-import { TeamComponent } from './team/team.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { HomeClientComponent } from './home-client/home-client.component';
 
 
 @NgModule({
@@ -21,11 +22,12 @@ import { RegisterComponent } from './register/register.component';
     AboutComponent,
     ServiceComponent,
     CarlistingComponent,
-    TeamComponent,
     BlogComponent,
     ContactComponent,
     LoginComponent,
     RegisterComponent,
+    TestimonialsComponent,
+    HomeClientComponent,
   ],
   imports: [
     BrowserModule,
