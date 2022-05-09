@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-carlisting',
   templateUrl: './carlisting.component.html',
   styles: [
-  ]
+ ]
 })
 export class CarlistingComponent implements OnInit {
 

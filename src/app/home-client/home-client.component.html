@@ -1,8 +1,26 @@
-
+<!DOCTYPE HTML>
+<html lang="zxx">
+	
+<!-- carlistng10:28  -->
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Xarkasin - Car Dealer Template</title>
+		
+	</head>
+	<body>
+		<!-- Page loader -->
+	    <!-- <div id="preloader">
+			<div class="display-table">
+				<div class="display-tablecell">
+					<img src="assets/img/loader.gif" alt="">
+				</div>
+			</div>
+		</div> -->
 		<!-- header section start -->
-		<div class="top-area">
-			<div class="head-top-area">
-				<header class="header-top border-bottom">
+		<div class="head-top-area">
+			<header class="header-top border-bottom">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8 d-none d-sm-block">
@@ -16,67 +34,374 @@
 							</div>
 							<div class="col-lg-4">
 								<div class="header-top-content login-reg text-lg-right text-center"> 
-									<ul>
-										<li><a routerLink="/" routerLinkActive="active"><i class="icofont icofont-user"></i> LogOut</a></li>
-										
-									</ul>
+									
+										<button class="btn btn-outline-primary" routerLink="/login" routerLinkActive="active" >Log out</button>
+									
 								</div>
 							</div>
 						</div>
 					</div>
 				</header>
-				<div class="header-bottom">
-					<div class="container">
-						<div class="row flexbox-center">
-							<div class="col-lg-2 col-md-3 col-6">
-								<div class="logo text-lg-left text-center">
-									<a href="index-2.html"><img src="assets/img/logo.png" alt="logo"></a>
-								</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="row flexbox-center">
+						<div class="col-lg-2 col-md-3 col-6">
+							<div class="logo text-lg-left text-center">
+								<a href="index-2.html"><img src="assets/img/logo.png" alt="logo"></a>
 							</div>
-							<div class="col-lg-10 col-md-9 col-6">
-								<div class="responsive-menu"></div>
-								<div class="mainmenu">
-									<ul id="primary-menu">
+						</div>
+						<div class="col-lg-10 col-md-9 col-6">
+							<div class="responsive-menu"></div>
+							<div class="mainmenu">
+								<ul id="primary-menu">
+									<li class="active"><a  routerLinkActive="active">Tarifs & Reservation </a>
 										
-											
+									</li>
+									<li><a routerLink="/about" routerLinkActive="active">Promotions </a>
 										
-										<li><a routerLink="/blog" routerLinkActive="active">Gérer mes réservations  
+									</li>
+									<li><a routerLink="/service" routerLinkActive="active">Vehicles </a>
+										
+									</li>
 
-										</a></li>
+									<li><a routerLink="/testimonials" routerLinkActive="active">Complaint </a>
 										
-										<li><a routerLink="/contact" routerLinkActive="active"> Gérer mon compte <i class="icofont icofont-simple-down"></i>
-											<ul>
-												<li><a href="team.html">Informations Personnelles</a></li>
-												<li><a href="testimonial.html">Historique</a></li>
-												<li><a href="blog-details.html">Autre</a></li>
-												
-											</ul>
-
-										</a></li>
-									</ul>
-								</div>
+									</li>
+									<li><a routerLink="/blog" routerLinkActive="active">Conditions</a></li>
+									<li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+									<li><a routerLink="/contact" routerLinkActive="active">Archive</a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div><!-- header section end -->
+			</div>
+		</div><!-- header section end -->
+		<!-- breadcrumb area start -->
+		<section class="breadcrumb-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Tarifs&Reservation</h2>
+						<ul>
+							<li><a href="index-2.html"></a></li>
+							<li class="active"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section><!-- breadcrumb area end -->
 
 
-			
+		<!-- ReadMore section start -->
+		<section class="py-md-5 py-3"> 
+  
+    
+			<div class="container">
+			  <h2 class="text-center">Nos Produits et services</h2>
+			  <p class="sous-titre text-center">Nous sommes plus qu'un loueur de voitures...
+			  </p> 
+			</div>
+			<div class="container">
+				<div class="owl-carousel owl-theme owl-loaded owl-services">
+				  
+					<div class="item mb-2 d-flex align-items-stretch">
+						<div class="card  border-shadow mb-3">
+						  <figure class="position-relative mb-0 ">
+							<img src="assets/img/page-home-client/gps.jpg"  class="img-fluid h-200 lazyload">
+						  </figure>
+						<div class="card-body">
+							<div class="card-box">
+								<h3 class="h4 card-title mb-2 text-capitalize">                      
+								  Location voiture avec GPS 
+								</h3>
+								<p>Pour faciliter vos déplacements et éviter les détours, Clicar assure le service de location de voiture avec GPS</p>
+							</div>
+						</div>
+						</div>
+					        <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+								
+								  <a routerLink="/gps" class="btn btn-warning book">Read More  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+							</div>
+					</div>
+				</div>	
+						
+			</div>
+			<div class="item mb-2 d-flex align-items-stretch">
+                <div class="card  border-shadow mb-3">
+                  <figure class="position-relative mb-0 ">
+                    <img src="assets/img/page-home-client/assur.jpg"  class="img-fluid h-200 lazyload">
+                  </figure>
+                  <div class="card-body">
+                    <div class="card-box">
+                        <h3 class="h4 card-title mb-2 text-capitalize">                      
+                          Assurance Pack Clic Protection 
+                        </h3>
+                        <p>Prenez l'offre Zero franchise Clic Protection +,  100% tous risques.</p>
+                      </div>
+                    </div>
+                      <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+                        
+                          <a routerLink="/assur"  class="btn btn-warning book">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        
+                      </div>
+                    </div>
+                  </div>
 
-		
-		
-        
+				  <div class="item mb-2 d-flex align-items-stretch">
+					<div class="card  border-shadow mb-3">
+					  <figure class="position-relative mb-0 ">
+						<img src="assets/img/page-home-client/bebe.jpg"  class="img-fluid h-200 lazyload">
+					  </figure>
+					  <div class="card-body">
+						<div class="card-box">
+							<h3 class="h4 card-title mb-2 text-capitalize">                      
+							  Siège auto: Bébé, enfant Gratuit ! 
+							</h3>
+							<p>Siège bébé, siège enfant ou rehausseur, demandez votre besoin, c'est offert gratuitement.</p>
+						  </div>
+						</div>
+						  <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+							
+							  <a routerLink="/bebe" class="btn btn-warning book">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+							
+						  </div>
+						</div>
+					  </div>
+				
+				
+				
+				<div class="item mb-2 d-flex align-items-stretch">
+					<div class="card  border-shadow mb-3">
+					  <figure class="position-relative mb-0 ">
+						<img src="assets/img/page-home-client/voiture.jpg" class="img-fluid h-200 lazyload">
+					  </figure>
+					  <div class="card-body">
+						<div class="card-box">
+							<h3 class="h4 card-title mb-2 text-capitalize">                      
+							  kilométrage illimité 
+							</h3>
+							<p>Vous allez faire du trajet, pas d'inquiétude, chez Clicar le kilométrage est illimité, rien ne sera facturé</p>
+						  </div>
+						</div>
+						  <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+							
+						  </div>
+						</div>
+					  </div>
+				
+				<div class="item mb-2 d-flex align-items-stretch">
+					<div class="card  border-shadow mb-3">
+					  <figure class="position-relative mb-0 ">
+						<img src="assets/img/page-home-client/assurance.jpg"  class="img-fluid h-200 lazyload">
+					  </figure>
+					  <div class="card-body">
+						<div class="card-box">
+							<h3 class="h4 card-title mb-2 text-capitalize">                      
+							  Assurances tous risques 
+							</h3>
+							<p>Consulter notre différent type d'assurance proposé, vous êtes toujours couvert.</p>
+						  </div>
+						</div>
+						  <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+							
+							  <a routerLink="/assurance" class="btn btn-warning book">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+							
+						  </div>
+						</div>
+					  </div>
+				
+				<div class="item mb-2 d-flex align-items-stretch">
+					<div class="card  border-shadow mb-3">
+					  <figure class="position-relative mb-0 ">
+						<img src="assets/img/page-home-client/aeroport.jpg"  class="img-fluid h-200 lazyload">
+					  </figure>
+					  <div class="card-body">
+						<div class="card-box">
+							<h3 class="h4 card-title mb-2 text-capitalize">                      
+							  Réception du client à l'aéroport 
+							</h3>
+							<p>Notre Agent sera à votre attente à l'aéroport sans frais supplémentaires et vous accompagnera à votre véhicule</p>
+						  </div>
+						</div>
+						  <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+							
+							  <a routerLink="/aeroport" class="btn btn-warning book">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+							
+						  </div>
+						</div>
+					  </div>
+				
+				
+				
+				<div class="item mb-2 d-flex align-items-stretch">
+					<div class="card  border-shadow mb-3">
+					  <figure class="position-relative mb-0 ">
+						<img src="assets/img/page-home-client/chauffeur.jpg"  class="img-fluid h-200 lazyload">
+					  </figure>
+					  <div class="card-body">
+						<div class="card-box">
+							<h3 class="h4 card-title mb-2 text-capitalize">                      
+							  Location voiture avec chauffeur 
+							</h3>
+							<p>Clicar vous donne la possibilité d'avoir un chauffeur professionnel à votre disposition le long de votre de séjour</p>
+						  </div>
+						</div>
+						  <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+							
+							  <a routerLink="/chauffeur" class="btn btn-warning book">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+							
+						  </div>
+						</div>
+					  </div>
+				
+				
+				
+				<div class="item mb-2 d-flex align-items-stretch">
+					<div class="card  border-shadow mb-3">
+					  <figure class="position-relative mb-0 ">
+						<img src="assets/img/page-home-client/domicile.jpg"  class="img-fluid h-200 lazyload">
+					  </figure>
+					  <div class="card-body">
+						<div class="card-box">
+							<h3 class="h4 card-title mb-2 text-capitalize">                      
+							  Service car à domicile 
+							</h3>
+							<p>Vous avez besoin d'une voiture de location à votre arrivée à votre hôtel, résidence..le service Car à domicile vous offre la livraison gratuite à votre adresse dans la majorité des villes principales en Tunisie</p>
+						  </div>
+						</div>
+						  <div class="card-footer bg-white border-0  p-3 d-flex justify-content-end">
+							
+							  <a routerLink="/domicile" class="btn btn-warning book">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+							
+						  </div>
+						</div>
+					  </div>
+							
+						  
+		</section>
+
+
+		<!-- blog section start -->
+		<section class="ptb-100 list-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="single-post listing-post">
+							<div class="row flexbox-center">
+								<div class="col-sm-5">
+									<div class="post-thumbnail">
+										<a href="#"><img src="assets/img/list/list1.jpg" alt="blog"></a>
+									</div>
+								</div>
+								<div class="col-sm-7">
+									<div class="post-details">
+										<a href="#"><h4 class="post-title">MERCEDES-BENZ C 220</h4></a>
+										<p>Lorem ipsum dolor sit amet consectetur Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant[…]</p>
+										<a href="#" class="theme-btn theme-btn2">$45,000</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="single-post listing-post">
+							<div class="row flexbox-center">
+								<div class="col-sm-5">
+									<div class="post-thumbnail">
+										<a href="#"><img src="assets/img/list/list2.jpg" alt="blog"></a>
+									</div>
+								</div>
+								<div class="col-sm-7">
+									<div class="post-details">
+										<a href="#"><h4 class="post-title">LAMBORGHINI LP610-4</h4></a>
+										<p>Lorem ipsum dolor sit amet consectetur Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant[…]</p>
+										<a href="#" class="theme-btn theme-btn2">$45,000</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="single-post listing-post">
+							<div class="row flexbox-center">
+								<div class="col-sm-5">
+									<div class="post-thumbnail">
+										<a href="#"><img src="assets/img/list/list3.jpg" alt="blog"></a>
+									</div>
+								</div>
+								<div class="col-sm-7">
+									<div class="post-details">
+										<a href="#"><h4 class="post-title">LAMBORGHINI LP610-4</h4></a>
+										<p>Lorem ipsum dolor sit amet consectetur Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant[…]</p>
+										<a href="#" class="theme-btn theme-btn2">$45,000</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="single-post listing-post">
+							<div class="row flexbox-center">
+								<div class="col-sm-5">
+									<div class="post-thumbnail">
+										<a href="#"><img src="assets/img/list/list4.jpg" alt="blog"></a>
+									</div>
+								</div>
+								<div class="col-sm-7">
+									<div class="post-details">
+										<a href="#"><h4 class="post-title">AUDI R8 V10 PLUS</h4></a>
+										<p>Lorem ipsum dolor sit amet consectetur Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudant[…]</p>
+										<a href="#" class="theme-btn theme-btn2">$45,000</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section><!-- blog section end -->
 		<!-- footer section start -->
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
+                    <div class="col-lg-6">
+						<div class="footer-top">
+							<div class="row flexbox-center">
+								<div class="col-xl-8 col-lg-7">
+									<div class="footer-top-left">
+										<h4>DO YOU WANT TO SELL A CAR?</h4>
+										<hr />
+										<p>Nemo enim ipsam voluptatem quia voluptas sit aspe rodit aut fugit, sed quia consequuntur.</p>
+									</div>
+								</div>
+								<div class="col-xl-4 col-lg-5">
+									<div class="footer-top-right">
+										<a href="#" class="theme-btn theme-btn2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+						<div class="footer-top flexbox-center">
+							<div class="row flexbox-center">
+								<div class="col-xl-8 col-lg-7">
+									<div class="footer-top-left">
+										<h4>DO YOU WANT TO SELL A CAR?</h4>
+										<hr />
+										<p>Nemo enim ipsam voluptatem quia voluptas sit aspe rodit aut fugit, sed quia consequuntur.</p>
+									</div>
+								</div>
+								<div class="col-xl-4 col-lg-5">
+									<div class="footer-top-right">
+										<a href="#" class="theme-btn theme-btn2">READ MORE</a>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+				<div class="row mt-30">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget">
 							<a href="index-2.html"><img src="assets/img/footer-logo.png" alt="footer-logo"></a>
-							<p>Lorem ipsum dolor sit amet, consctetur adipiscing elit,
-								 sed do eiusmod tempor incididunt ut labore et dolore magna as aliqua. 
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+							<p>Lorem ipsum dolor sit amet, consctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna as aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 							<div class="widget-social-icons">
 								<a href="#"><i class="icofont icofont-social-facebook"></i></a>
 								<a href="#"><i class="icofont icofont-social-twitter"></i></a>
@@ -86,31 +411,64 @@
 							</div>
 						</div>
                     </div>
-                   
-                    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="widget">
+							<h4 class="widget-title">Our Services</h4>
+							<ul>
+								<li><a href="#"><i class="icofont icofont-curved-double-right"></i> BMW Series</a></li>
+								<li><a href="#"><i class="icofont icofont-curved-double-right"></i> Toyota</a></li>
+								<li><a href="#"><i class="icofont icofont-curved-double-right"></i> Alfa Romeo</a></li>
+								<li><a href="#"><i class="icofont icofont-curved-double-right"></i> Mercedes</a></li>
+								<li><a href="#"><i class="icofont icofont-curved-double-right"></i> Ferrari</a></li>
+								<li><a href="#"><i class="icofont icofont-curved-double-right"></i> Aston Martin</a></li>
+							</ul>
+						</div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="widget">
+							<h4 class="widget-title">Latest News</h4>
+							<div class="widget-gallery">
+								<div class="single-widget-gallery">
+									<a href="#"><img src="assets/img/widget/widget1.jpg" alt="widget" /></a>
+								</div>
+								<div class="single-widget-gallery">
+									<a href="#"><img src="assets/img/widget/widget2.jpg" alt="widget" /></a>
+								</div>
+								<div class="single-widget-gallery">
+									<a href="#"><img src="assets/img/widget/widget3.jpg" alt="widget" /></a>
+								</div>
+								<div class="single-widget-gallery">
+									<a href="#"><img src="assets/img/widget/widget4.jpg" alt="widget" /></a>
+								</div>
+								<div class="single-widget-gallery">
+									<a href="#"><img src="assets/img/widget/widget5.jpg" alt="widget" /></a>
+								</div>
+								<div class="single-widget-gallery">
+									<a href="#"><img src="assets/img/widget/widget6.jpg" alt="widget" /></a>
+								</div>
+							</div>
+						</div>
+                    </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="widget widget-get-in-touch">
-							<h4 class="widget-title">Get in Touch  </h4>
-							
+							<h4 class="widget-title">Get in Touch</h4>
 							<ul>
 								<li><i class="icofont icofont-location-pin"></i><p><span>Our Address : </span>Blue Rock Street, CA 945, USA</p></li>
 								<li><i class="icofont icofont-phone"></i><p><span>Phone Number : </span>(+880) 567-290-4567</p></li>
 								<li><i class="icofont icofont-clock-time"></i><p><span>Opening Hours : </span> Mon- Sat : 06 Am -08 Pm</p></li>
 								<li><i class="icofont icofont-envelope"></i><p><span>Email: </span>Support@gmail.com</p></li>
 							</ul>
-							
 						</div>
                     </div>
 				</div>
 			</div>
 			
-		</footer>
-		<!-- footer section end -->
-
+		</footer><!-- footer section end -->
+		<a href="#" class="scrollToTop">
+			<i class="icofont icofont-arrow-up"></i>
+		</a>
 		
-		
-	
+	</body>
 
-
-
-
+<!-- carlistng10:43  -->
+</html>

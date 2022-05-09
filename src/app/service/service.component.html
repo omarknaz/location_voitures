@@ -7,18 +7,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Xarkasin - Car Dealer Template</title>
-		
-		
-	</head>
+	
+</head>
 	<body>
-		<!-- Page loader -->
-	    <!-- <div id="preloader">
-			<div class="display-table">
-				<div class="display-tablecell">
-					<img src="assets/img/loader.gif" alt="">
-				</div>
-			</div>
-		</div> -->
+		
 		<!-- header section start -->
 		<div class="head-top-area">
 			<header class="header-top border-bottom">
@@ -36,8 +28,8 @@
 							<div class="col-lg-4">
 								<div class="header-top-content login-reg text-lg-right text-center"> 
 									<ul>
-										<li><a href="#"><i class="icofont icofont-user"></i> Login</a></li>
-										<li><a href="#"><i class="icofont icofont-pencil-alt-2"></i> Register</a></li>
+										<li><a routerLink="/login" routerLinkActive="active"><i class="icofont icofont-user"></i> Login</a></li>
+										<li><a  routerLink="/register" routerLinkActive="active"><i class="icofont icofont-pencil-alt-2"></i> Register</a></li>
 									</ul>
 								</div>
 							</div>
@@ -56,22 +48,24 @@
 							<div class="responsive-menu"></div>
 							<div class="mainmenu">
 								<ul id="primary-menu">
-									<li><a routerLink="/" routerLinkActive="active">Home</a>
+									<li><a  routerLink="/home" routerLinkActive="active">Home </a>
+								
+									</li>
+									<li><a  routerLink="/about" routerLinkActive="active">About</a>
 										
 									</li>
-									<li><a routerLink="/about" routerLinkActive="active">About </a>
-										
+									<li class="active">Service 
 									</li>
-									<li class="active"><a >Service </a>
-										
-									</li>
-									<li><a class="nav link" routerLink="/carlisting" routerLinkActive="active">carlistng</a></li>
 
-									<li><a routerLink="/testimonials" routerLinkActive="active">Testimonials </a>
+								     <li><a routerLink="/carlisting" routerLinkActive="active">Carlistng</a></li>
+
+									<li><a routerLink="/testimonials" routerLinkActive="active">Testimonials</a>
 										
+									
 									</li>
 									<li><a routerLink="/blog" routerLinkActive="active">Blog</a></li>
 									<li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+								
 								</ul>
 							</div>
 						</div>
@@ -87,7 +81,7 @@
 						<h2>Our Service</h2>
 						<ul>
 							<li><a href="index-2.html">Home</a></li>
-							<li class="active"><a href="service2.html">Service </a></li>
+							<li class="active"><a href="service2.html">Service</a></li>
 						</ul>
 					</div>
 				</div>
@@ -553,8 +547,6 @@
 		<!-- footer section start -->
 		<footer class="footer">
 			<div class="container">
-                <router-outlet></router-outlet>
-
 				<div class="row">
                     <div class="col-lg-6">
 						<div class="footer-top">
@@ -658,13 +650,39 @@
                     </div>
 				</div>
 			</div>
-			
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</footer><!-- footer section end -->
 		<a href="#" class="scrollToTop">
 			<i class="icofont icofont-arrow-up"></i>
 		</a>
 		<!-- jquery main JS -->
-		
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Slicknav JS -->
+		<script src="assets/js/jquery.slicknav.min.js"></script>
+		<!-- owl carousel JS -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- Popup JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Counterup JS -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Counterup waypoints JS -->
+		<script src="assets/js/waypoints.min.js"></script>
+		<!-- Isotope JS -->
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<!-- Vega JS -->
+		<script src="assets/js/vegas.min.js"></script>
+		<!-- main JS -->
+		<script src="assets/js/main.js"></script>
 	</body>
 
 <!-- service210:28  -->
